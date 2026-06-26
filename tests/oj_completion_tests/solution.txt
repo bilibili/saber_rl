@@ -1,0 +1,15 @@
+<think>
+</think>
+<answer>
+```python
+def max_product(nums):
+    """
+    Returns the maximum product of any two distinct elements in the list.
+    """
+    # Sort the list
+    nums.sort()
+    
+    # The maximum product could be from the two highest values or two lowest values (in case they are negative)
+    return max(nums[-1] * nums[-2], nums[0] * nums[1])
+```
+</answer>

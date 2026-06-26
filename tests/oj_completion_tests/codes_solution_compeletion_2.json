@@ -1,0 +1,29 @@
+{
+    "problem": "Title: Translation\n\nTime Limit: 2 seconds\n\nMemory Limit: 256 megabytes\n\nProblem Description:\nThe translation from the Berland language into the Birland language is not an easy task. Those languages are very similar: a berlandish word differs from a birlandish word with the same meaning a little: it is spelled (and pronounced) reversely. For example, a Berlandish word code corresponds to a Birlandish word edoc. However, it's easy to make a mistake during the \u00abtranslation\u00bb. Vasya translated word *s* from Berlandish into Birlandish as *t*. Help him: find out if he translated the word correctly.\n\nInput Specification:\nThe first line contains word *s*, the second line contains word *t*. The words consist of lowercase Latin letters. The input data do not consist unnecessary spaces. The words are not empty and their lengths do not exceed 100 symbols.\n\nOutput Specification:\nIf the word *t* is a word *s*, written reversely, print YES, otherwise print NO.\n\nDemo Input:\n['code\\nedoc\\n', 'abb\\naba\\n', 'code\\ncode\\n']\n\nDemo Output:\n['YES\\n', 'NO\\n', 'NO\\n']\n\nNote:\nnone",
+    "ground_truth": {
+        "inputs": [
+            "ry\nyr",
+            "abb\naba",
+            "juotpscvyfmgntshcealgbsrwwksgrwnrrbyaqqsxdlzhkbugdyx\nibqvffmfktyipgiopznsqtrtxiijntdbgyy",
+            "gxoixiecetohtgjgbqzvlaobkhstejxdklghowtvwunnnvauriohuspsdmpzckprwajyxldoyckgjivjpmbfqtszmtocovxwgeh\nhegwxvocotmzstqfbmpjvijgkcyodlxyjawrpkczpmdspsuhoiruavnnnuwvtwohglkdxjetshkboalvzqbgjgthoteceixioxg",
+            "incenvizhqpcenhjhehvjvgbsnfixbatrrjstxjzhlmdmxijztphxbrldlqwdfimweepkggzcxsrwelodpnryntepioqpvk\ndhjbjjftlvnxibkklxquwmzhjfvnmwpapdrslioxisbyhhfymyiaqhlgecpxamqnocizwxniubrmpyubvpenoukhcobkdojlybxd",
+            "code\ncode",
+            "asd\ndsa",
+            "ycnahksbughnonldzrhkysujmylcgcfuludjvjiahtkyzqvkopzqcnwhltbzfugzojqkjjlggmvnultascmygelkiktmfieok\nkoeifmtkiklegkmcsatlunvmggkjjlqjozgufzbtlhwncqzpokvqzykthaijvjdulufcgclymjusyyhrzdlnonhgubskhancy",
+            "zdsl\nlsdz",
+            "q\nq"
+        ],
+        "outputs": [
+            "YES",
+            "NO",
+            "NO",
+            "YES",
+            "NO",
+            "NO",
+            "YES",
+            "NO",
+            "YES",
+            "YES"
+        ]
+    }
+}

@@ -93,25 +93,20 @@ SABER uses the PRIME reward manager with customizable scoring functions:
 saber_rl/
 ├── saber_train.sh              # Training launch script
 ├── setup.py                    # Package installation
-├── recipe/prime/               # PRIME reward recipe
-│   ├── main_prime.py           # PRIME trainer entry point
-│   └── config/                 # PRIME-specific configs
-├── verl/                       # Core verl framework
-│   ├── trainer/                # Training orchestration
-│   │   ├── main_ppo.py        # PPO/GRPO entry point
-│   │   ├── ppo/               # Core RL algorithms
-│   │   └── config/            # Hydra YAML configs
-│   ├── workers/                # Distributed workers
-│   │   ├── fsdp_workers.py    # FSDP actor/critic/ref
-│   │   ├── rollout/           # vLLM/SGLang rollout
-│   │   └── reward_manager/    # Reward computation
-│   ├── utils/                  # Utilities
-│   │   ├── reward_score/      # Reward scoring (math, sandbox, saber)
-│   │   ├── dataset/           # Data loading
-│   │   └── checkpoint/        # Checkpoint management
-│   └── models/                 # Model definitions (Qwen2, LLaMA)
-├── tests/                      # Unit and e2e tests
-└── examples/                   # Example training configs
+└── verl/                       # Core verl framework
+    ├── trainer/                # Training orchestration
+    │   ├── main_ppo.py        # PPO/GRPO entry point
+    │   ├── ppo/               # Core RL algorithms
+    │   └── config/            # Hydra YAML configs
+    ├── workers/                # Distributed workers
+    │   ├── fsdp_workers.py    # FSDP actor/critic/ref
+    │   ├── rollout/           # vLLM/SGLang rollout
+    │   └── reward_manager/    # Reward computation
+    ├── utils/                  # Utilities
+    │   ├── reward_score/      # Reward scoring (math, sandbox, saber)
+    │   ├── dataset/           # Data loading
+    │   └── checkpoint/        # Checkpoint management
+    └── models/                 # Model definitions (Qwen2, LLaMA)
 ```
 
 ## Citation

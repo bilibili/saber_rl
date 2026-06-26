@@ -1,6 +1,6 @@
 # SABER: Switchable and Balanced Training for Efficient LLM Reasoning
 
-[![Paper](https://img.shields.io/badge/AAAI%202026-SABER-b31b1b.svg)](https://arxiv.org/abs/2505.xxxxx)
+[![Paper](https://img.shields.io/badge/AAAI%202026-SABER-b31b1b.svg)](https://arxiv.org/abs/2508.10026)
 [![Code](https://img.shields.io/badge/GitHub-saber__rl-blue.svg)](https://github.com/bilibili/saber_rl)
 
 This repository contains the reinforcement learning training code for **SABER**, as described in:

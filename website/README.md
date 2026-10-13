@@ -42,6 +42,6 @@ NoThink 的零长度是零显式思考 token，不是零答案 token。预算是
 
 公开网站：https://bilibili.github.io/saber_rl/
 
-本目录对应仓库中的 `website/`。GitHub Pages 的 Source 使用 **GitHub Actions**；推送到 `main` 的 `website/` 或 `.github/workflows/saber-pages.yml` 变更会自动触发 `Deploy SABER website` 发布。也可在 Actions 中手动运行。
+本目录对应仓库中的 `website/`。GitHub Pages 的 Source 使用 **GitHub Actions**；推送到 `main` 的 `website/` 或 `.github/workflows/saber-pages.yml` 变更会自动触发 `Deploy SABER website` 发布。也可在 Actions 中手动运行。如果在首次任务后才启用 Pages，需要重新运行一次部署任务。
 
 `index.html` 为入口，无构建步骤。图片、论文、JSON、样式和脚本均使用相对路径；canonical 与 Open Graph 元信息使用上方正式网址。

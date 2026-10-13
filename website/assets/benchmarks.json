@@ -1,0 +1,248 @@
+{
+  "source": "SABER_AAAI2026_CR.pdf, p. 5, Tables 1\u20132",
+  "metricNote": "accuracy in percent, length is average thinking tokens",
+  "1.5B": {
+    "Base": {
+      "MATH500": {
+        "accuracy": 78.9,
+        "thinkTokens": 8042
+      },
+      "GSM8K": {
+        "accuracy": 82.1,
+        "thinkTokens": 3471
+      },
+      "MATH": {
+        "accuracy": 80.6,
+        "thinkTokens": 7866
+      },
+      "MBPP": {
+        "accuracy": 38.9,
+        "thinkTokens": 5755
+      }
+    },
+    "DeepThink": {
+      "MATH500": {
+        "accuracy": 83.2,
+        "thinkTokens": 5353
+      },
+      "GSM8K": {
+        "accuracy": 85.7,
+        "thinkTokens": 1947
+      },
+      "MATH": {
+        "accuracy": 85.2,
+        "thinkTokens": 4748
+      },
+      "MBPP": {
+        "accuracy": 53.7,
+        "thinkTokens": 3010
+      }
+    },
+    "CoreThink": {
+      "MATH500": {
+        "accuracy": 82.1,
+        "thinkTokens": 3294
+      },
+      "GSM8K": {
+        "accuracy": 83.1,
+        "thinkTokens": 930
+      },
+      "MATH": {
+        "accuracy": 84.3,
+        "thinkTokens": 3045
+      },
+      "MBPP": {
+        "accuracy": 49.8,
+        "thinkTokens": 1254
+      }
+    },
+    "FastThink": {
+      "MATH500": {
+        "accuracy": 81.4,
+        "thinkTokens": 2899
+      },
+      "GSM8K": {
+        "accuracy": 82.5,
+        "thinkTokens": 778
+      },
+      "MATH": {
+        "accuracy": 83.5,
+        "thinkTokens": 2719
+      },
+      "MBPP": {
+        "accuracy": 45.1,
+        "thinkTokens": 942
+      }
+    },
+    "Base-NoThink": {
+      "MATH500": {
+        "accuracy": 65.1,
+        "thinkTokens": 0
+      },
+      "GSM8K": {
+        "accuracy": 61.1,
+        "thinkTokens": 0
+      },
+      "MATH": {
+        "accuracy": 65.5,
+        "thinkTokens": 0
+      },
+      "MBPP": {
+        "accuracy": 30.7,
+        "thinkTokens": 0
+      }
+    },
+    "NoThink": {
+      "MATH500": {
+        "accuracy": 76.3,
+        "thinkTokens": 0
+      },
+      "GSM8K": {
+        "accuracy": 78.1,
+        "thinkTokens": 0
+      },
+      "MATH": {
+        "accuracy": 76.9,
+        "thinkTokens": 0
+      },
+      "MBPP": {
+        "accuracy": 44.7,
+        "thinkTokens": 0
+      }
+    }
+  },
+  "7B": {
+    "Base": {
+      "MATH500": {
+        "accuracy": 91.5,
+        "thinkTokens": 8221
+      },
+      "GSM8K": {
+        "accuracy": 91.4,
+        "thinkTokens": 3402
+      },
+      "MATH": {
+        "accuracy": 92.4,
+        "thinkTokens": 7838
+      },
+      "MBPP": {
+        "accuracy": 59.9,
+        "thinkTokens": 5021
+      },
+      "LiveBench-R": {
+        "accuracy": 36.4,
+        "thinkTokens": 5619
+      }
+    },
+    "DeepThink": {
+      "MATH500": {
+        "accuracy": 91.9,
+        "thinkTokens": 6265
+      },
+      "GSM8K": {
+        "accuracy": 92.0,
+        "thinkTokens": 2351
+      },
+      "MATH": {
+        "accuracy": 92.9,
+        "thinkTokens": 5763
+      },
+      "MBPP": {
+        "accuracy": 65.8,
+        "thinkTokens": 2426
+      },
+      "LiveBench-R": {
+        "accuracy": 38.3,
+        "thinkTokens": 4401
+      }
+    },
+    "CoreThink": {
+      "MATH500": {
+        "accuracy": 90.1,
+        "thinkTokens": 2820
+      },
+      "GSM8K": {
+        "accuracy": 91.7,
+        "thinkTokens": 1319
+      },
+      "MATH": {
+        "accuracy": 91.2,
+        "thinkTokens": 2557
+      },
+      "MBPP": {
+        "accuracy": 63.0,
+        "thinkTokens": 1556
+      },
+      "LiveBench-R": {
+        "accuracy": 32.1,
+        "thinkTokens": 3039
+      }
+    },
+    "FastThink": {
+      "MATH500": {
+        "accuracy": 86.5,
+        "thinkTokens": 1563
+      },
+      "GSM8K": {
+        "accuracy": 90.3,
+        "thinkTokens": 495
+      },
+      "MATH": {
+        "accuracy": 87.2,
+        "thinkTokens": 1478
+      },
+      "MBPP": {
+        "accuracy": 61.1,
+        "thinkTokens": 969
+      },
+      "LiveBench-R": {
+        "accuracy": 30.6,
+        "thinkTokens": 2166
+      }
+    },
+    "Base-NoThink": {
+      "MATH500": {
+        "accuracy": 79.1,
+        "thinkTokens": 0
+      },
+      "GSM8K": {
+        "accuracy": 86.4,
+        "thinkTokens": 0
+      },
+      "MATH": {
+        "accuracy": 79.7,
+        "thinkTokens": 0
+      },
+      "MBPP": {
+        "accuracy": 43.2,
+        "thinkTokens": 0
+      },
+      "LiveBench-R": {
+        "accuracy": 17.9,
+        "thinkTokens": 0
+      }
+    },
+    "NoThink": {
+      "MATH500": {
+        "accuracy": 85.1,
+        "thinkTokens": 0
+      },
+      "GSM8K": {
+        "accuracy": 89.2,
+        "thinkTokens": 0
+      },
+      "MATH": {
+        "accuracy": 85.5,
+        "thinkTokens": 0
+      },
+      "MBPP": {
+        "accuracy": 58.8,
+        "thinkTokens": 0
+      },
+      "LiveBench-R": {
+        "accuracy": 26.8,
+        "thinkTokens": 0
+      }
+    }
+  }
+}
